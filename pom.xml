@@ -91,23 +91,23 @@
     <nativeLibOnlyDir>${project.build.directory}/native-lib-only</nativeLibOnlyDir>
     <nativeJarWorkdir>${project.build.directory}/native-jar-work</nativeJarWorkdir>
     <nativeLibOsParts>${os.detected.name}_${os.detected.arch}</nativeLibOsParts>
-    <aprVersion>1.7.5</aprVersion>
-    <aprSha256>3375fa365d67bcf945e52b52cba07abea57ef530f40b281ffbe977a9251361db</aprSha256>
+    <aprVersion>1.7.6</aprVersion>
+    <aprSha256>6a10e7f7430510600af25fabf466e1df61aaae910bf1dc5d10c44a4433ccc81d</aprSha256>
     <boringsslBranch>main</boringsslBranch>
     <!--
       See https://boringssl.googlesource.com/boringssl/+/refs/heads/main for the latest commit
     -->
-    <boringsslCommitSha>0226f30467f540a3f62ef48d453f93927da199b6</boringsslCommitSha>
+    <boringsslCommitSha>a35389e3da95f3824883400ea71f354834b38b59</boringsslCommitSha>
     <libresslVersion>3.4.3</libresslVersion>
     <!--
       See https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/SHA256 for the SHA256 signature
     -->
     <libresslSha256>ff88bffe354818b3ccf545e3cafe454c5031c7a77217074f533271d63c37f08d</libresslSha256>
     <opensslMinorVersion>3.6</opensslMinorVersion>
-    <opensslPatchVersion>1</opensslPatchVersion>
+    <opensslPatchVersion>2</opensslPatchVersion>
     <openssl.lib.version>3.6</openssl.lib.version>
     <opensslVersion>${opensslMinorVersion}.${opensslPatchVersion}</opensslVersion>
-    <opensslSha256>b1bfedcd5b289ff22aee87c9d600f515767ebf45f77168cb6d64f231f518a82e</opensslSha256>
+    <opensslSha256>aaf51a1fe064384f811daeaeb4ec4dce7340ec8bd893027eee676af31e83a04f</opensslSha256>
     <aprHome>${project.build.directory}/apr</aprHome>
     <aprSourceDir>${project.build.directory}/apr-source</aprSourceDir>
     <aprBuildDir>${project.build.directory}/apr-build</aprBuildDir>
